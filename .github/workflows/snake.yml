@@ -23,9 +23,12 @@ jobs:
     timeout-minutes: 10
     
     steps:
-      # Checkout the repository
+      # Checkout the repository (persist credentials so push can authenticate)
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          persist-credentials: true
+          fetch-depth: 0
       
       # Ensure output directory exists
       - name: Prepare dist directory
@@ -42,6 +45,27 @@ jobs:
             dist/github-contribution-grid-snake.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
       
       # Push the generated files to the output branch
+      # Debug: show git and filesystem state before pushing
+      - name: Debug: git and filesystem info
+        run: |
+          git --version
+          git config --list
+          git remote -v
+          git branch --show-current || echo "no current branch"
+          git status --porcelain
+          ls -la
+          echo "dist contents:" && ls -la dist || true
+        continue-on-error: true
+
+      - name: Debug: dry-run push to output branch
+        run: |
+          echo "Setting remote URL to use GITHUB_TOKEN for auth"
+          git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git fetch origin
+          echo "Attempting dry-run push to create/update output branch"
+          git push --dry-run origin HEAD:refs/heads/output || true
+        continue-on-error: true
+
       - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
