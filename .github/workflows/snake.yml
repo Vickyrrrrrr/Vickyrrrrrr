@@ -1,5 +1,9 @@
 name: Generate Snake Animation
 
+# Give the workflow explicit permissions so the GITHUB_TOKEN can push to branches
+permissions:
+  contents: write
+
 on:
   # Run automatically every 12 hours
   schedule:
