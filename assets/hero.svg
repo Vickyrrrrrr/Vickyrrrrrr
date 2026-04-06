@@ -1,0 +1,78 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#020617;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f172a;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#bgGradient)" />
+  
+  <!-- Animated Grid/Nodes (Representing Agent Orchestration) -->
+  <g stroke="#3b82f6" stroke-width="0.5" opacity="0.3">
+    <line x1="200" y1="50" x2="400" y2="150" class="line-anim" />
+    <line x1="400" y1="150" x2="300" y2="250" class="line-anim1" />
+    <line x1="300" y1="250" x2="100" y2="200" class="line-anim2" />
+    <line x1="100" y1="200" x2="200" y2="50" class="line-anim3" />
+    
+    <line x1="1000" y1="80" x2="900" y2="200" class="line-anim" />
+    <line x1="900" y1="200" x2="1100" y2="220" class="line-anim1" />
+    <line x1="1100" y1="220" x2="1000" y2="80" class="line-anim2" />
+  </g>
+  
+  <g fill="#60a5fa" filter="url(#glow)">
+    <circle cx="200" cy="50" r="4" class="pulse" />
+    <circle cx="400" cy="150" r="3" class="pulse1" />
+    <circle cx="300" cy="250" r="5" class="pulse2" />
+    <circle cx="100" cy="200" r="3" class="pulse3" />
+    
+    <circle cx="1000" cy="80" r="4" class="pulse" />
+    <circle cx="900" cy="200" r="3" class="pulse1" />
+    <circle cx="1100" cy="220" r="4" class="pulse2" />
+  </g>
+
+  <!-- Main Text -->
+  <g text-anchor="middle" font-family="'Outfit', 'Inter', sans-serif">
+    <text x="600" y="160" fill="white" font-size="85" font-weight="700" class="float">VxkY • Vicky</text>
+    <text x="600" y="210" fill="#94a3b8" font-size="28" font-weight="300" class="float-delay">Learner | Agent Orchestration | LLMs</text>
+  </g>
+
+  <!-- Shimmer Effect -->
+  <rect width="200" height="100%" fill="white" opacity="0.05" transform="skewX(-20)">
+    <animateTransform attributeName="transform" type="translate" from="-400 0" to="1600 0" dur="8s" repeatCount="indefinite" />
+  </rect>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&amp;display=swap');
+    
+    .pulse { animation: pulseAnim 3s infinite; }
+    .pulse1 { animation: pulseAnim 4s infinite 1s; }
+    .pulse2 { animation: pulseAnim 5s infinite 2s; }
+    .pulse3 { animation: pulseAnim 3.5s infinite 1.5s; }
+    
+    @keyframes pulseAnim {
+      0%, 100% { opacity: 0.4; r: 3; }
+      50% { opacity: 1; r: 6; }
+    }
+    
+    .float { animation: floatAnim 6s ease-in-out infinite; }
+    .float-delay { animation: floatAnim 6s ease-in-out 1s infinite; }
+    
+    @keyframes floatAnim {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    .line-anim { animation: dash 10s linear infinite; }
+    @keyframes dash {
+      0% { opacity: 0.1; }
+      50% { opacity: 0.5; }
+      100% { opacity: 0.1; }
+    }
+  </style>
+</svg>

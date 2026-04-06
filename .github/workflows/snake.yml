@@ -34,19 +34,19 @@ jobs:
       - name: Prepare dist directory
         run: mkdir -p dist
       
-      # Generate the snake animation
+      # Generate the holographic cyber-snake animation
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: Vickyrrrrrr
           outputs: |
             dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-            dist/github-contribution-grid-snake.svg?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#ffffff&color_dots=#0a0a0f,#1e3a8a,#3b82f6,#60a5fa,#93c5fd
+            dist/github-contribution-grid-snake-extraordinary.svg?color_snake=white&color_dots=#020617,#1e1b4b,#312e81,#3b82f6,#60a5fa
       
       # Push the generated files to the output branch
       # Debug: show git and filesystem state before pushing
-      - name: Debug: git and filesystem info
+      - name: Debug git and filesystem info
         run: |
           git --version
           git config --list
@@ -57,7 +57,7 @@ jobs:
           echo "dist contents:" && ls -la dist || true
         continue-on-error: true
 
-      - name: Debug: dry-run push to output branch
+      - name: Debug dry-run push to output branch
         run: |
           echo "Setting remote URL to use GITHUB_TOKEN for auth"
           git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}

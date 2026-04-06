@@ -1,0 +1,120 @@
+<svg width="1200" height="400" viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Atmosphere Mesh -->
+    <radialGradient id="meshBlue" cx="20%" cy="30%" r="50%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#020617;stop-opacity:0" />
+    </radialGradient>
+    <radialGradient id="meshPurple" cx="80%" cy="70%" r="60%">
+      <stop offset="0%" style="stop-color:#312e81;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#020617;stop-opacity:0" />
+    </radialGradient>
+
+    <!-- Card Gradients -->
+    <linearGradient id="card-agent" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00d2ff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3a7bd5;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card-llm" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6a11cb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2575fc;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="card-system" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f80759;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#bc4e9c;stop-opacity:1" />
+    </linearGradient>
+
+    <filter id="ultraGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="15" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Dark Base & Atmosphere -->
+  <rect width="100%" height="100%" fill="#0a0a0f" />
+  <rect width="100%" height="100%" fill="url(#meshBlue)">
+    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="6s" repeatCount="indefinite" />
+  </rect>
+  <rect width="100%" height="100%" fill="url(#meshPurple)">
+    <animate attributeName="opacity" values="0.3;0.1;0.3" dur="9s" repeatCount="indefinite" />
+  </rect>
+
+  <!-- Title Overlay (Subtle Static Brand) -->
+  <g text-anchor="middle" font-family="'Outfit', sans-serif" opacity="0.3" letter-spacing="8">
+      <text x="600" y="50" fill="white" font-size="14" font-weight="700">VXKY • LEARNER</text>
+  </g>
+
+  <!-- Continuous 3D Carousel -->
+  <g transform="translate(600, 210)">
+    <!-- Card 0: VxkY • Vicky (Branding) -->
+    <g class="card car-0">
+      <rect x="-155" y="-105" width="310" height="210" rx="30" fill="rgba(255,255,255,0.03)" stroke="white" stroke-opacity="0.1" />
+      <rect x="-150" y="-100" width="300" height="200" rx="25" fill="#111827" filter="url(#ultraGlow)" />
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-family="'Outfit', sans-serif" font-size="34" font-weight="700">VxkY • Vicky</text>
+      <text x="0" y="25" text-anchor="middle" fill="#94a3b8" font-family="'Outfit', sans-serif" font-size="18">The Vibe Coder</text>
+    </g>
+
+    <!-- Card 1: Agent Orchestration -->
+    <g class="card car-1">
+      <rect x="-150" y="-100" width="300" height="200" rx="25" fill="url(#card-agent)" opacity="0.95" filter="url(#ultraGlow)" />
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-family="'Outfit', sans-serif" font-size="30" font-weight="700">AGENT</text>
+      <text x="0" y="25" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="'Outfit', sans-serif" font-size="18">Orchestration</text>
+    </g>
+    
+    <!-- Card 2: LLM Systems -->
+    <g class="card car-2">
+      <rect x="-150" y="-100" width="300" height="200" rx="25" fill="url(#card-llm)" opacity="0.95" filter="url(#ultraGlow)" />
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-family="'Outfit', sans-serif" font-size="30" font-weight="700">LLM</text>
+      <text x="0" y="25" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="'Outfit', sans-serif" font-size="18">Intelligence</text>
+    </g>
+    
+    <!-- Card 3: Scalable Architecture -->
+    <g class="card car-3">
+      <rect x="-150" y="-100" width="300" height="200" rx="25" fill="url(#card-system)" opacity="0.95" filter="url(#ultraGlow)" />
+      <text x="0" y="-10" text-anchor="middle" fill="white" font-family="'Outfit', sans-serif" font-size="30" font-weight="700">SCALABLE</text>
+      <text x="0" y="25" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="'Outfit', sans-serif" font-size="18">Architecture</text>
+    </g>
+  </g>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;700&amp;display=swap');
+    
+    .card {
+      transform-origin: center;
+      animation: carouselSmooth 12s infinite linear;
+      opacity: 0;
+    }
+    
+    .car-0 { animation-delay: 0s; }
+    .car-1 { animation-delay: -3s; } /* Negative delays to pre-warm the loop */
+    .car-2 { animation-delay: -6s; }
+    .car-3 { animation-delay: -9s; }
+    
+    @keyframes carouselSmooth {
+      0% {
+        transform: translate3d(-600px, 10px, -200px) scale(0.4) rotateY(-30deg);
+        opacity: 0;
+      }
+      12.5% {
+        transform: translate3d(-350px, 0, -100px) scale(0.7) rotateY(-15deg);
+        opacity: 0.4;
+      }
+      25% {
+        transform: translate3d(0, -10px, 0) scale(1.1) rotateY(0deg);
+        opacity: 1;
+      }
+      37.5% {
+        transform: translate3d(350px, 0, -100px) scale(0.7) rotateY(15deg);
+        opacity: 0.4;
+      }
+      50% {
+        transform: translate3d(600px, 10px, -200px) scale(0.4) rotateY(30deg);
+        opacity: 0;
+      }
+      100% {
+        transform: translate3d(600px, 10px, -200px) scale(0.4) rotateY(30deg);
+        opacity: 0;
+      }
+    }
+  </style>
+</svg>

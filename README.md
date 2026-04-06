@@ -1,76 +1,89 @@
 <!-- workflow-trigger: 2025-11-08 -->
-## VxkY • Vicky — Portfolio
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![snake workflow](https://github.com/Vickyrrrrrr/Vickyrrrrrr/actions/workflows/snake.yml/badge.svg)](https://github.com/Vickyrrrrrr/Vickyrrrrrr/actions/workflows/snake.yml)
-
-A modern, responsive portfolio showcasing projects, skills, and experience. Built with React, Vite and Tailwind CSS — smooth animations and interactive 3D elements.
-
-[Usage & Deploy](USAGE.md)
-
 <div align="center">
 
-<!-- Animated Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=300&section=header&text=VxkY%20•%20Vicky&fontSize=90&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20Open%20Source%20Enthusiast&descSize=25&descAlignY=55&animation=twinkling" alt="Animated header banner" width="100%"/>
+<!-- Hero Section -->
+<p align="center">
+  <img src="assets/hero-3d.svg" alt="VxkY • Vicky Hero Banner" width="100%"/>
+</p>
 
-<!-- Typing SVG -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=1000&color=00D9FF&center=true&vCenter=true&width=800&lines=Hey%20there%21%20I%27m%20Vicky%20%F0%9F%91%8B;Full%20Stack%20Developer%20%7C%20Tech%20Explorer;Building%20the%20future%20one%20commit%20at%20a%20time;Open%20Source%20%7C%20Web3%20%7C%20AI%20Enthusiast" alt="Typing SVG" />
+<!-- Typing Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=Outfit&size=30&duration=3000&pause=1000&color=FFFFFF&center=true&vCenter=true&width=800&lines=Exploring%20the%20frontiers%20of%20AI%20%26%20Agentic%20systems;Mastering%20System%20Design%20%26%20Scalable%20Architecture;Building%20the%20future%20one%20concept%20at%20a%20time" alt="Typing SVG" />
 
 <br/>
 
-<!-- Animated GIF Divider -->
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" alt="Animated divider" width="900">
+<!-- Subtle Divider -->
+<img src="https://raw.githubusercontent.com/Vickyrrrrrr/Vickyrrrrrr/output/github-contribution-grid-snake-extraordinary.svg" alt="Snake Animation" width="100%" />
 
 </div>
 
 <br/>
 
-## <img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" alt="About icon" width="40" /> About Me
+## 🪐 About Me
 
-<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" alt="Coding animation" width="400" />
+<img align="right" src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" alt="Coding" width="350" />
 
 ```javascript
 const vicky = {
-    name: "Vicky",
+    role: "Learner",
     location: "Lucknow, India 🇮🇳",
-    education: "University of Lucknow",
-    role: "Full Stack Developer",
-    
-    currentFocus: [
-        "Building scalable web applications",
-        "Exploring Web3 & Blockchain",
-        "Contributing to Open Source",
-        "Learning AI/ML technologies"
-    ],
-    
-    techStack: {
-        frontend: ["React", "Next.js", "Three.js", "Vite"],
-        backend: ["Node.js", "Express", "Python"],
-        databases: ["MongoDB", "PostgreSQL", "MySQL"],
-        tools: ["Git", "Docker", "VS Code"],
-        exploring: ["Solidity", "LangChain", "ESP32/Arduino"]
-    },
-    
-    motto: "Code, Learn, Repeat 🚀"
+    focus: ["Agent Orchestration", "LLMs", "System Design", "Scalable Architecture"],
+    motto: "Decode, Deconstruct, Develop 🚀"
 };
 ```
 
-## 📊 My GitHub Stats & Socials
+I am a developer passionate about building high-performance web applications and exploring the frontiers of decentralized tech and artificial intelligence.
+
+<br/>
+
+## 🛠️ Tech Stack
+
+> [!NOTE]
+> **Disclaimer**: I'm mainly a **vibe coder** exploring the depths of **backend structure** and **distributed systems**. I know the basics and I'm learning these technologies side by side, with a primary focus on the internal mechanics rather than frontend polish.
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+</p>
+<p align="left">
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/Valkey-2496ED?style=for-the-badge&logo=valkey&logoColor=white" /> 
+  <img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
+
+<br/>
+
+## 📊 Performance Metrics
 
 <p align="center">
   <a href="https://github.com/Vickyrrrrrr">
-    <img src="https://github-readme-stats.vercel.app/api?username=Vickyrrrrrr&show_icons=true&theme=radical&hide_border=true&count_private=true" alt="Vicky's GitHub Stats" />
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vickyrrrrrr&layout=compact&theme=radical&hide_border=true" alt="Top Languages" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vickyrrrrrr&theme=dark" alt="Profile Details" width="100%" />
   </a>
 </p>
 
+<br/>
+
+## 🤝 Connect With Me
+
 <p align="center">
   <a href="https://www.linkedin.com/in/vicky-nishad-117855369/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://www.instagram.com/vicky.socials/?hl=en">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
+    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
   </a>
+  &nbsp;
   <a href="https://vicky-nishad.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-3b5998?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-333333?style=for-the-badge&logo=google-chrome&logoColor=white" />
   </a>
 </p>
+
+<div align="center">
+  <br />
+  <img src="https://komarev.com/ghpvc/?username=Vickyrrrrrr&color=blueviolet&style=flat-square" alt="Profile Views" />
+</div>
+
