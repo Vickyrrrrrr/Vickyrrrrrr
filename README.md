@@ -12,7 +12,7 @@
 <br/>
 
 <!-- Subtle Divider -->
-<img src="https://raw.githubusercontent.com/Vickyrrrrrr/Vickyrrrrrr/output/github-contribution-grid-snake-extraordinary.svg" alt="Snake Animation" width="100%" />
+<img src="https://raw.githubusercontent.com/Vickyrrrrrr/Vickyrrrrrr/output/github-contribution-grid-snake-extraordinary.svg?v=1" alt="Snake Animation" width="100%" />
 
 </div>
 
@@ -60,7 +60,7 @@ I am a developer passionate about building high-performance web applications and
 
 <p align="center">
   <a href="https://github.com/Vickyrrrrrr">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vickyrrrrrr&theme=dark" alt="Profile Details" width="100%" />
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Vickyrrrrrr&theme=dark&cache=bust1" alt="Profile Details" width="100%" />
   </a>
 </p>
 
