@@ -23,7 +23,7 @@ I am an ECE undergraduate at the University of Lucknow, deeply passionate about 
 
 ### 📈 GitHub Activity
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Vickyrrrrrr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=06060c" height="192px" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=Vickyrrrrrr&show_icons=true&theme=tokyonight&count_private=true&include_all_commits=true&cache_seconds=1800&hide_border=true&bg_color=06060c" height="192px" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vickyrrrrrr&layout=compact&theme=tokyonight&hide_border=true&bg_color=06060c" height="192px" alt="Top Languages" />
 </div>
 
