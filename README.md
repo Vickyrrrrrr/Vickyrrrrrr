@@ -1,8 +1,5 @@
 <div align="center">
 
-<img src="assets/hero-3d.svg" alt="Vicky Nishad" width="100%" />
-
-<br/>
 
 # Vicky Nishad
 
