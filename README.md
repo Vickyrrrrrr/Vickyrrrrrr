@@ -1,5 +1,8 @@
 <div align="center">
 
+<img src="assets/hero-3d.svg" alt="Vicky Nishad" width="100%" />
+
+<br/>
 
 # Vicky Nishad
 
@@ -13,9 +16,6 @@
 ### 📊 Metrics & Performance
 
 <p align="center">
-  <a href="https://github.com/Vickyrrrrrr">
-    <img src="https://github-readme-stats.vercel.app/api?username=Vickyrrrrrr&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&v=1" alt="GitHub Stats" />
-  </a>
   <a href="https://github.com/Vickyrrrrrr">
     <img src="https://streak-stats.demolab.com/?user=Vickyrrrrrr&theme=dark&hide_border=true&background=0d1117&v=1" alt="GitHub Streak" />
   </a>
