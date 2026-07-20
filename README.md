@@ -1,49 +1,70 @@
-# vicky &nbsp;
+<div align="center">
 
-> ECE student. building at the intersection of AI × hardware.
+<img src="assets/hero-3d.svg" alt="Vicky Nishad" width="100%" />
 
-currently — [AgentIC](https://buildstack.live/), an autonomous RTL-to-GDSII chip design system.
-
-&nbsp;
-
-```
-autonomous chip design  ·  LLM fine-tuning  ·  GPU kernels  ·  VLSI / EDA
-python  ·  verilog  ·  typescript  ·  pytorch  ·  openLane  ·  docker
-```
-
----
-
-### contributions
-
-<!-- all time -->
-<details open>
-<summary><b>all time</b></summary>
 <br/>
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=Vickyrrrrrr&theme=github-compact&hide_border=true&area=true&custom_title=all+time+activity)
+# Vicky Nishad
 
-</details>
+<img src="https://readme-typing-svg.demolab.com?font=Geist+Pixel&weight=500&size=22&duration=3000&pause=1000&color=888888&center=true&vCenter=true&width=800&lines=Backend+%26+Distributed+Systems;Agent+Orchestration+%26+LLMs;System+Architecture" alt="Typing SVG" />
 
-<!-- this year -->
-<details>
-<summary><b>this year</b></summary>
+<p>
+  Building scalable architectures and exploring the internal mechanics of complex systems.<br>
+  Based in Lucknow, India 🇮🇳
+</p>
+
 <br/>
 
-![](https://github-readme-stats.vercel.app/api?username=Vickyrrrrrr&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&custom_title=2026+stats)
+### 📊 Metrics & Performance
 
-![](https://github-readme-streak-stats.herokuapp.com/?user=Vickyrrrrrr&theme=dark&hide_border=true)
+<table align="center" style="border: none;">
+  <tr style="border: none;">
+    <td align="center" style="border: none; background: transparent;">
+      <a href="https://github.com/Vickyrrrrrr">
+        <img src="https://github-readme-stats.vercel.app/api?username=Vickyrrrrrr&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
+      </a>
+    </td>
+    <td align="center" style="border: none; background: transparent;">
+      <a href="https://github.com/Vickyrrrrrr">
+        <img src="https://streak-stats.demolab.com/?user=Vickyrrrrrr&theme=dark&hide_border=true&background=0d1117" alt="GitHub Streak" />
+      </a>
+    </td>
+  </tr>
+</table>
 
-</details>
+### 📈 Contributions (Year & Months)
 
-<!-- this month -->
-<details>
-<summary><b>this month</b></summary>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Vickyrrrrrr/Vickyrrrrrr/output/github-contribution-grid-snake-extraordinary.svg" alt="Contribution Snake" width="100%" />
+</p>
+
+
 <br/>
 
-![](https://github-readme-activity-graph.vercel.app/graph?username=Vickyrrrrrr&theme=github-compact&hide_border=true&area=true&days=30&custom_title=last+30+days)
+### 🛠️ Core Stack
 
-</details>
+<p align="center">
+  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=go&logoColor=white" />
+  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=redis&logoColor=white" />
+  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=valkey&logoColor=white" /> 
+</p>
 
----
+<br/>
 
-[portfolio](https://vicky.buildstack.live) &nbsp;·&nbsp; [linkedin](https://www.linkedin.com/in/vicky-nishad-117855369/) &nbsp;·&nbsp; lucknow, india
+### 🔗 Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/vicky-nishad-117855369/"><img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://vicky-nishad.vercel.app"><img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
+  <a href="https://www.instagram.com/vicky.socials/?hl=en"><img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=Vickyrrrrrr&color=888888&style=flat-square&label=VIEWS" alt="Profile Views" />
+</p>
+
+</div>
