@@ -6,8 +6,6 @@
 
 # Vicky Nishad
 
-<img src="https://readme-typing-svg.demolab.com?font=Geist+Pixel&weight=500&size=22&duration=3000&pause=1000&color=888888&center=true&vCenter=true&width=800&lines=Backend+%26+Distributed+Systems;Agent+Orchestration+%26+LLMs;System+Architecture" alt="Typing SVG" />
-
 <p>
   Building scalable architectures and exploring the internal mechanics of complex systems.<br>
   Based in Lucknow, India 🇮🇳
@@ -17,20 +15,14 @@
 
 ### 📊 Metrics & Performance
 
-<table align="center" style="border: none;">
-  <tr style="border: none;">
-    <td align="center" style="border: none; background: transparent;">
-      <a href="https://github.com/Vickyrrrrrr">
-        <img src="https://github-readme-stats.vercel.app/api?username=Vickyrrrrrr&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117" alt="GitHub Stats" />
-      </a>
-    </td>
-    <td align="center" style="border: none; background: transparent;">
-      <a href="https://github.com/Vickyrrrrrr">
-        <img src="https://streak-stats.demolab.com/?user=Vickyrrrrrr&theme=dark&hide_border=true&background=0d1117" alt="GitHub Streak" />
-      </a>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <a href="https://github.com/Vickyrrrrrr">
+    <img src="https://github-readme-stats.vercel.app/api?username=Vickyrrrrrr&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&v=1" alt="GitHub Stats" />
+  </a>
+  <a href="https://github.com/Vickyrrrrrr">
+    <img src="https://streak-stats.demolab.com/?user=Vickyrrrrrr&theme=dark&hide_border=true&background=0d1117&v=1" alt="GitHub Streak" />
+  </a>
+</p>
 
 ### 📈 Contributions (Year & Months)
 
