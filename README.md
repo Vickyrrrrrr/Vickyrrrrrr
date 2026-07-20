@@ -31,8 +31,11 @@
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,go,docker,aws,postgres,redis" alt="Core Stack" />
+    <img src="https://skillicons.dev/icons?i=c,cpp,py,go,docker,aws,postgres,redis" alt="Core Stack" />
   </a>
+  <br/>
+  <img src="https://img.shields.io/badge/Oracle-0d1117?style=flat-square&logo=oracle&logoColor=white" />
+  <img src="https://img.shields.io/badge/Verilog-0d1117?style=flat-square" />
 </p>
 
 <br/>
@@ -48,7 +51,7 @@
     <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
   </a>
   &nbsp;
-  <a href="https://vicky-nishad.vercel.app">
+  <a href="https://vicky.buildstack.live/">
     <img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
 </p>
