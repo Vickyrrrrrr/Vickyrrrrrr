@@ -30,13 +30,9 @@
 ### 🛠️ Core Stack
 
 <p align="center">
-  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=go&logoColor=white" />
-  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=postgresql&logoColor=white" />
-  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=redis&logoColor=white" />
-  <img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=valkey&logoColor=white" /> 
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,go,docker,aws,postgres,redis" alt="Core Stack" />
+  </a>
 </p>
 
 <br/>
@@ -44,9 +40,17 @@
 ### 🔗 Connect
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/vicky-nishad-117855369/"><img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="https://vicky-nishad.vercel.app"><img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=google-chrome&logoColor=white" /></a>
-  <a href="https://www.instagram.com/vicky.socials/?hl=en"><img src="https://img.shields.io/badge/-000000?style=for-the-badge&logo=instagram&logoColor=white" /></a>
+  <a href="https://www.linkedin.com/in/vicky-nishad-117855369/">
+    <img src="https://skillicons.dev/icons?i=linkedin" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="https://www.instagram.com/vicky.socials/?hl=en">
+    <img src="https://skillicons.dev/icons?i=instagram" alt="Instagram" />
+  </a>
+  &nbsp;
+  <a href="https://vicky-nishad.vercel.app">
+    <img src="https://img.shields.io/badge/Portfolio-0d1117?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
+  </a>
 </p>
 
 <p align="center">
