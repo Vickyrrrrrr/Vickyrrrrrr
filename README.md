@@ -1,8 +1,8 @@
-# vicky &nbsp;·&nbsp; VxkY
+# vicky &nbsp;
 
 > ECE student. building at the intersection of AI × hardware.
 
-currently — [AgentIC](https://github.com/Vickyrrrrrr/AgentIC), an autonomous RTL-to-GDSII chip design system.
+currently — [AgentIC](https://buildstack.live/), an autonomous RTL-to-GDSII chip design system.
 
 &nbsp;
 
