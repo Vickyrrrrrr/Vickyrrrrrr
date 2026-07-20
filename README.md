@@ -20,4 +20,8 @@ currently working on [AgentIC](https://github.com/Vickyrrrrrr/AgentIC) — an au
 
 ---
 
+![](https://github-readme-activity-graph.vercel.app/graph?username=Vickyrrrrrr&theme=github-compact&hide_border=true&area=true)
+
+---
+
 [portfolio](https://vicky-nishad.vercel.app) · [linkedin](https://www.linkedin.com/in/vicky-nishad-117855369/) · lucknow, india
